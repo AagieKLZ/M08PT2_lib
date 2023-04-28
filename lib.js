@@ -7,5 +7,13 @@ function mean(arr){
     return total / arr.length
 }
 
-module.exports = { mean }
+function sum(arr){
+    let total = 0
+    arr.forEach(el => {
+        total += el
+    })
+    return total
+}
+
+module.exports = { mean, sum }
 
